@@ -13,6 +13,10 @@ I am interested in junior software engineering, Python development and backend r
 
 My academic work also includes machine-learning notebooks using pandas, NumPy and scikit-learn.
 
+## Problem solving
+
+I have solved 70+ coding problems through LeetCode/NeetCode practice.
+
 ## Selected projects
 
 ### [11 Brothers FC](https://github.com/shrohan2003/11-brothers-fc-case-study)
@@ -35,4 +39,4 @@ CSE470 Software Engineering group project at BRAC University: a student marketpl
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) Â· [GitHub](https://github.com/shrohan2003)
+[LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) | [GitHub](https://github.com/shrohan2003)

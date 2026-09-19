@@ -39,4 +39,6 @@ CSE470 Software Engineering group project at BRAC University: a student marketpl
 
 ## Contact
 
+[Email](mailto:shanjidul.hasan.rohan@g.bracu.ac.bd)
+
 [LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) | [GitHub](https://github.com/shrohan2003)

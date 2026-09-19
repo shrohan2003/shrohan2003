@@ -27,7 +27,7 @@ My first paid real-world client software project. I built a football-club platfo
 
 A Vue, Express and PostgreSQL project with private notes, search, JWT authentication, and owner/editor/viewer permissions. The README explains the API and layered backend.
 
-### EVENTIM Event Data Scraper
+### [EVENTIM Event Data Scraper](https://github.com/shrohan2003/eventim-event-scraper)
 
 My individual Python project for browser capture, HTML parsing and structured event-data export. It separates browser access from parser and normalization logic, with offline tests. Source is currently private.
 

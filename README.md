@@ -19,20 +19,6 @@ I have solved 70+ coding problems through LeetCode/NeetCode practice.
 
 ## Selected projects
 
-### [11 Brothers FC](https://github.com/shrohan2003/11-brothers-fc-case-study)
-
-**My first paid real-world client project, built individually.** I developed a web platform for a football club to bring public club information, player accounts, registrations and administration into one place.
-
-I built the TypeScript and React interface, server-side application workflows and database integration. Visitors can browse club information, players, matches and events. Players can create accounts and use a personal dashboard. Staff pages support club content, registrations and manual payment review.
-
-**How the parts connect:** React displays the pages and forms. Server routes run on Cloudflare Workers using Vinext. Those routes read or save records in Cloudflare D1, a SQL database, while Cloudinary handles media storage. The browser sends requests to the server; it does not connect directly to the database.
-
-**Example process:** A player opens a registration form and submits it. The server reads the login session, checks the relevant access and registration rules, and saves an accepted registration in D1. The interface displays the result returned by the server. Payment proof follows a separate staff-review workflow; it is not an automatic card-payment gateway.
-
-**Stack:** TypeScript, React, Vinext, Tailwind CSS, Cloudflare Workers, D1, Drizzle and Cloudinary.
-
-The linked case study includes real local demonstration screenshots. Client source remains private. Public pages, player account flows and local checks were tested; administrative and external-service workflows still need broader validation, and authentication hardening remains a known task.
-
 ### [Collaborative Notes](https://github.com/shrohan2003/collaborative-notes-app)
 
 A full-stack notes project where registered users create private notes, search them and share selected notes with other users. The owner controls sharing. An editor can change the note, while a viewer can only read it.

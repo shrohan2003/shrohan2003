@@ -19,6 +19,14 @@ I have solved 70+ coding problems through LeetCode/NeetCode practice.
 
 ## Selected projects
 
+### [Scrapper Viva — EVENTIM Scraper](https://github.com/shrohan2003/scrapper-viva)
+
+A Python tool that captures an EVENTIM event page after I open its coloured seating map in Chrome. It produces JSON with the event details, ticket categories, prices and seating-block availability. The saved result is a snapshot; running the tool again captures updated page data.
+
+**How the parts connect:** A small Chrome extension reads the rendered page in my existing browser session and sends it to a local Python process. Python parses the page with Beautiful Soup, checks that key fields are present and writes `result.json`. The extension is needed because Python cannot directly read an ordinary existing Chrome tab. It does not bypass an EVENTIM access denial.
+
+**Stack:** Python, Beautiful Soup, JavaScript, Chrome Extension APIs and pytest. The Windows workflow and parser tests have been checked; macOS and Linux launchers are included but have not yet been tested on those systems.
+
 ### [Collaborative Notes](https://github.com/shrohan2003/collaborative-notes-app)
 
 A full-stack notes project where registered users create private notes, search them and share selected notes with other users. The owner controls sharing. An editor can change the note, while a viewer can only read it.

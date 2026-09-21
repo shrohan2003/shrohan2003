@@ -31,19 +31,6 @@ A full-stack notes project where registered users create private notes, search t
 
 This is permission-based sharing, not simultaneous live typing. The repository includes source, setup instructions, screenshots and tests. The description explains the application's implementation; it does not claim sole authorship or an unconfirmed division of work.
 
-### [EVENTIM Event Data Scraper](https://github.com/shrohan2003/eventim-event-scraper)
-
-**My individual Python project.** I built a tool that turns event-page content into structured JSON, making information such as the event name, venue, date and ticket categories easier to inspect and process.
-
-I separated browser capture, HTML parsing, value cleanup and output into different Python modules. Dataclasses hold the result in a consistent structure, and offline tests check the parsing and error-handling behavior.
-
-**How the parts connect:** This is a command-line application, so it does not have a separate web frontend, web backend or database. The command-line entry point passes an event URL or saved HTML file to the scraper. The browser component obtains page HTML when live access is available. The parser extracts fields, normalization helpers clean values such as prices, and the result is written to a JSON file.
-
-**Example process:** Run the command with a saved page. The scraper reads the HTML, finds event and ticket information, creates structured Python objects and exports JSON. The same parser can be tested with fixtures without opening a live browser. Live access may fail if the website changes or restricts access; individual-seat availability is not guaranteed.
-
-**Stack:** Python, Playwright, BeautifulSoup, dataclasses and pytest.
-
-The repository remains private, so its link works only for people with access. The eight tests in this repository are separate from the fourteen tests in the newer local V3 implementation.
 
 ### [BRACU Bazaar](https://github.com/Fazlul105/BRACU-Bazaar)
 

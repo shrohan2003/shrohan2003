@@ -15,7 +15,6 @@ I contribute to open-source projects maintained by OpenAI and sktime. Three of m
 
 - **Collaborative Notes** lets owners share individual notes with readers or editors. The Vue interface calls an Express API, and PostgreSQL stores the notes and access permissions. [Repository](https://github.com/shrohan2003/collaborative-notes-app)
 - **BRACU Bazaar** is a student marketplace I worked on as part of a BRAC University software engineering team. The group built the catalog, order flows, and messaging with React, Express, and MongoDB. [Group repository](https://github.com/Fazlul105/BRACU-Bazaar)
-- **Scrapper Viva** captures event and seating information from a page opened in Chrome. A browser extension passes the rendered page to a Python parser, which produces a JSON snapshot. [Repository](https://github.com/shrohan2003/scrapper-viva)
 
 ## Skills
 

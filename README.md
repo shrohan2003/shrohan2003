@@ -4,10 +4,11 @@ I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a
 
 ## Open source
 
-I contribute to open-source projects maintained by OpenAI and sktime. Here are three of my public pull requests to sktime, a Python library for machine learning with time series.
+I contribute to open-source projects maintained by OpenAI and sktime. Three of my pull requests to sktime, a Python library for machine learning with time series, have been merged.
 
 - **Merged** · I fixed a numerical stability issue in `PolynomialTrendForecaster` by rescaling timestamps before fitting the trend. The fitted coefficients retain their original time units. [sktime #11472](https://github.com/sktime/sktime/pull/11472)
 - **Merged** · I added test cases that run without optional dependencies, allowing sktime to re-enable a parameter coverage test for 14 estimators. [sktime #11624](https://github.com/sktime/sktime/pull/11624)
+- **Merged** · I removed obsolete test skips for eight estimators so those tests now run in the suite. [sktime #11562](https://github.com/sktime/sktime/pull/11562)
 - **Open as of November 7, 2026** · I proposed a fix for `OnlineEnsembleForecaster` so updating a forecast leaves the caller’s ensemble object intact and fitting the model again starts with fresh weights. [sktime #11621](https://github.com/sktime/sktime/pull/11621)
 
 ## Selected projects

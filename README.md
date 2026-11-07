@@ -1,59 +1,25 @@
 # Shanjidul Hasan Rohan
 
-Final-semester Computer Science and Engineering student at BRAC University. Python is my main programming language, and I also work with backend, frontend and full-stack web applications.
+I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a role I started in October 2026. I study Computer Science and Engineering at BRAC University. Python is my main language, and I use it for browser automation, data processing, and testing.
 
-I am interested in junior software engineering, Python development and backend roles.
+## Open source
 
-## Technical focus
+I contribute to open-source projects maintained by OpenAI and sktime. Here are three of my public pull requests to sktime, a Python library for machine learning with time series.
 
-- **Python:** browser automation, HTML parsing, data processing and object-oriented programming.
-- **Web:** JavaScript, TypeScript, Vue, React, Express and REST APIs.
-- **Data:** PostgreSQL, Cloudflare D1 and relational data modeling.
-- **Tools:** Git, GitHub, pytest and Cloudflare Workers.
-
-My academic work also includes machine-learning notebooks using pandas, NumPy and scikit-learn.
-
-## Problem solving
-
-I have solved 70+ coding problems through LeetCode/NeetCode practice.
+- **Merged** · I fixed a numerical stability issue in `PolynomialTrendForecaster` by rescaling timestamps before fitting the trend. The fitted coefficients retain their original time units. [sktime #11472](https://github.com/sktime/sktime/pull/11472)
+- **Merged** · I added test cases that run without optional dependencies, allowing sktime to re-enable a parameter coverage test for 14 estimators. [sktime #11624](https://github.com/sktime/sktime/pull/11624)
+- **Open as of November 7, 2026** · I proposed a fix for `OnlineEnsembleForecaster` so updating a forecast leaves the caller’s ensemble object intact and fitting the model again starts with fresh weights. [sktime #11621](https://github.com/sktime/sktime/pull/11621)
 
 ## Selected projects
 
-### [Scrapper Viva — EVENTIM Scraper](https://github.com/shrohan2003/scrapper-viva)
+- **Collaborative Notes** lets owners share individual notes with readers or editors. The Vue interface calls an Express API, and PostgreSQL stores the notes and access permissions. [Repository](https://github.com/shrohan2003/collaborative-notes-app)
+- **BRACU Bazaar** is a student marketplace I worked on as part of a BRAC University software engineering team. The group built the catalog, order flows, and messaging with React, Express, and MongoDB. [Group repository](https://github.com/Fazlul105/BRACU-Bazaar)
+- **Scrapper Viva** captures event and seating information from a page opened in Chrome. A browser extension passes the rendered page to a Python parser, which produces a JSON snapshot. [Repository](https://github.com/shrohan2003/scrapper-viva)
 
-A Python tool that captures an EVENTIM event page after I open its coloured seating map in Chrome. It produces JSON with the event details, ticket categories, prices and seating-block availability. The saved result is a snapshot; running the tool again captures updated page data.
+## Skills
 
-**How the parts connect:** A small Chrome extension reads the rendered page in my existing browser session and sends it to a local Python process. Python parses the page with Beautiful Soup, checks that key fields are present and writes `result.json`. The extension is needed because Python cannot directly read an ordinary existing Chrome tab. It does not bypass an EVENTIM access denial.
+- **Python and data** · HTML parsing with Beautiful Soup, browser automation, pytest, and time-series forecasting. My academic work includes pandas, NumPy, and scikit-learn.
+- **Web development** · JavaScript, TypeScript, Vue, React, and REST APIs with Node.js and Express.
+- **Databases and tools** · SQL, PostgreSQL, Cloudflare D1, Cloudflare Workers, and Git.
 
-**Stack:** Python, Beautiful Soup, JavaScript, Chrome Extension APIs and pytest. The Windows workflow and parser tests have been checked; macOS and Linux launchers are included but have not yet been tested on those systems.
-
-### [Collaborative Notes](https://github.com/shrohan2003/collaborative-notes-app)
-
-A full-stack notes project where registered users create private notes, search them and share selected notes with other users. The owner controls sharing. An editor can change the note, while a viewer can only read it.
-
-**How the parts connect:** Vue provides the screens. It sends HTTP requests to an Express API, which uses PostgreSQL to store users, notes and sharing permissions. The backend is split into controllers that receive requests, services that check rules, and repositories that run SQL queries.
-
-**Example process:** After login, the frontend stores a JWT and includes it with protected requests. When a user saves a note, Express checks the token, validates the title and content, and uses the authenticated user as the owner. A repository saves the record in PostgreSQL. The API returns JSON, and Vue shows the saved note. When another user opens a shared note, the backend checks that user's access before returning it.
-
-**Stack:** JavaScript, Vue 3, Node.js, Express, PostgreSQL, JWT and bcryptjs.
-
-This is permission-based sharing, not simultaneous live typing. The repository includes source, setup instructions, screenshots and tests. The description explains the application's implementation; it does not claim sole authorship or an unconfirmed division of work.
-
-
-### [BRACU Bazaar](https://github.com/Fazlul105/BRACU-Bazaar)
-
-**BRAC University CSE470 Software Engineering group project.** I participated as a team member in a student marketplace project. The group application includes product listings, account flows, orders, reviews and messaging. My exact responsibilities are not specified here because the available Git history does not establish the work split.
-
-**How the parts connect:** React displays the marketplace. It requests data from an Express API, and the backend uses Mongoose to read or write MongoDB documents. The frontend is hosted on Netlify, with API requests forwarded to the backend on Render. Account-related code uses bcrypt password hashing and JWTs.
-
-**Example process:** A visitor opens the catalog. React requests product data from the API. Express reads product records through Mongoose, returns JSON, and React displays the listings. Account and order routes are present in the source, but their protected live workflows were not tested during this review.
-
-**Stack:** JavaScript, React, Vite, Tailwind CSS, Express, MongoDB and Mongoose.
-
-[Live demo](https://bracubazaar.netlify.app/) | [Original group repository](https://github.com/Fazlul105/BRACU-Bazaar)
-
-## Contact
-
-[Email](mailto:shanjidul.hasan.rohan@g.bracu.ac.bd)
-
-[LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) | [GitHub](https://github.com/shrohan2003)
+[LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) · [Email](mailto:shanjidul.hasan.rohan@g.bracu.ac.bd)

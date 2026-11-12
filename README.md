@@ -6,12 +6,16 @@ I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a
 
 I contribute to open-source projects maintained by OpenAI and sktime. Three of my pull requests to sktime, a Python library for machine learning with time series, have been merged.
 
+- **Released in python-semver 3.1.1** · I fixed version indexing for objects that implement Python’s integer index protocol. [PR #508](https://github.com/python-semver/python-semver/pull/508) · [Release notes](https://github.com/python-semver/python-semver/discussions/510)
 - **Merged** · I fixed a numerical stability issue in `PolynomialTrendForecaster` by rescaling timestamps before fitting the trend. The fitted coefficients retain their original time units. [sktime #11472](https://github.com/sktime/sktime/pull/11472)
 - **Merged** · I added test cases that run without optional dependencies, allowing sktime to re-enable a parameter coverage test for 14 estimators. [sktime #11624](https://github.com/sktime/sktime/pull/11624)
 - **Merged** · I removed obsolete test skips for eight estimators so those tests now run in the suite. [sktime #11562](https://github.com/sktime/sktime/pull/11562)
 - **Open as of November 7, 2026** · I proposed a fix for `OnlineEnsembleForecaster` so updating a forecast leaves the caller’s ensemble object intact and fitting the model again starts with fresh weights. [sktime #11621](https://github.com/sktime/sktime/pull/11621)
 
 ## Selected projects
+
+- **Calendar Recurrence Lab** lets you cancel meetings and compare the expected schedule with results from two pinned parser revisions across all 64 cancellation patterns. [Live demo](https://shrohan2003.github.io/calendar-recurrence-lab/) · [Source](https://github.com/shrohan2003/calendar-recurrence-lab)
+- **Calendar UID Map** compares local calendar exports, distinguishes reminders from their parent events, and flags repeated master records. [Source and example](https://github.com/shrohan2003/calendar-uid-map)
 
 - **Collaborative Notes** lets owners share individual notes with readers or editors. The Vue interface calls an Express API, and PostgreSQL stores the notes and access permissions. [Repository](https://github.com/shrohan2003/collaborative-notes-app)
 - **BRACU Bazaar** is a student marketplace I worked on as part of a BRAC University software engineering team. The group built the catalog, order flows, and messaging with React, Express, and MongoDB. [Group repository](https://github.com/Fazlul105/BRACU-Bazaar)

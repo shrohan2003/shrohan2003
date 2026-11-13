@@ -1,6 +1,6 @@
 # Shanjidul Hasan Rohan
 
-I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a role I started in October 2026. I study Computer Science and Engineering at BRAC University. Python is my main language, and I use it for browser automation, data processing, and testing.
+I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a role I started in October 2026. I study Computer Science and Engineering at BRAC University. Python is my main language, and I use it for browser automation, data processing, and testing. I also built a CI/CD pipeline using Terraform.
 
 ## Open source
 
@@ -11,6 +11,14 @@ I contribute to open-source projects maintained by OpenAI and sktime. Three of m
 - **Merged** · I added test cases that run without optional dependencies, allowing sktime to re-enable a parameter coverage test for 14 estimators. [sktime #11624](https://github.com/sktime/sktime/pull/11624)
 - **Merged** · I removed obsolete test skips for eight estimators so those tests now run in the suite. [sktime #11562](https://github.com/sktime/sktime/pull/11562)
 - **Open as of November 7, 2026** · I proposed a fix for `OnlineEnsembleForecaster` so updating a forecast leaves the caller’s ensemble object intact and fitting the model again starts with fresh weights. [sktime #11621](https://github.com/sktime/sktime/pull/11621)
+
+### Calendar software
+
+As of November 14, 2026, these ten pull requests are open.
+
+- **ical.js** · I proposed fixes for reading contact photos from vCards, importing files with multiple calendars, and converting dates before a time zone’s first transition or with years below 1000. [vCard photos](https://github.com/kewisch/ical.js/pull/1080) · [Calendar streams](https://github.com/kewisch/ical.js/pull/1081) · [Time zone offsets](https://github.com/kewisch/ical.js/pull/1082) · [Early years](https://github.com/kewisch/ical.js/pull/1083)
+- **python-caldav** · One patch keeps an alarm’s ID from being mistaken for its parent event’s ID. Another reports when a server rejects an individual property update. [Event IDs](https://github.com/python-caldav/caldav/pull/858) · [Property updates](https://github.com/python-caldav/caldav/pull/859)
+- **icalevents** · My patches address calendar imports with repeated categories, searches that miss ongoing recurring events, all-day events appearing a day late, and cancellations that hide other meetings on the same day. [Categories](https://github.com/eigenmannmartin/icalevents/pull/182) · [Recurring events](https://github.com/eigenmannmartin/icalevents/pull/183) · [All-day events](https://github.com/eigenmannmartin/icalevents/pull/184) · [Cancellations](https://github.com/eigenmannmartin/icalevents/pull/185)
 
 ## Selected projects
 

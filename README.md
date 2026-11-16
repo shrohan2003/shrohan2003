@@ -14,7 +14,7 @@ I contribute to open-source projects maintained by OpenAI and sktime. Three of m
 
 ### Calendar software
 
-As of November 14, 2026, these ten pull requests are open.
+Both python-caldav fixes merged on November 15, 2026. The eight ical.js and icalevents pull requests are open as of November 16.
 
 - **ical.js** · I proposed fixes for reading contact photos from vCards, importing files with multiple calendars, and converting dates before a time zone’s first transition or with years below 1000. [vCard photos](https://github.com/kewisch/ical.js/pull/1080) · [Calendar streams](https://github.com/kewisch/ical.js/pull/1081) · [Time zone offsets](https://github.com/kewisch/ical.js/pull/1082) · [Early years](https://github.com/kewisch/ical.js/pull/1083)
 - **python-caldav** · One patch keeps an alarm’s ID from being mistaken for its parent event’s ID. Another reports when a server rejects an individual property update. [Event IDs](https://github.com/python-caldav/caldav/pull/858) · [Property updates](https://github.com/python-caldav/caldav/pull/859)

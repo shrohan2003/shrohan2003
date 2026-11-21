@@ -4,7 +4,7 @@ I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a
 
 ## Open source
 
-I contribute to open-source projects maintained by OpenAI and sktime. Three of my pull requests to sktime, a Python library for machine learning with time series, have been merged.
+As of November 21, 2026, I have **9 merged upstream pull requests** across **icalevents, python-caldav, python-semver, and sktime**.
 
 - **Released in python-semver 3.1.1** · I fixed version indexing for objects that implement Python’s integer index protocol. [PR #508](https://github.com/python-semver/python-semver/pull/508) · [Release notes](https://github.com/python-semver/python-semver/discussions/510)
 - **Merged** · I fixed a numerical stability issue in `PolynomialTrendForecaster` by rescaling timestamps before fitting the trend. The fitted coefficients retain their original time units. [sktime #11472](https://github.com/sktime/sktime/pull/11472)
@@ -14,11 +14,12 @@ I contribute to open-source projects maintained by OpenAI and sktime. Three of m
 
 ### Calendar software
 
-Both python-caldav fixes merged on November 15, 2026. The eight ical.js and icalevents pull requests are open as of November 16.
+Both python-caldav fixes and three icalevents fixes have merged. Additional calendar fixes remain under review.
 
 - **ical.js** · I proposed fixes for reading contact photos from vCards, importing files with multiple calendars, and converting dates before a time zone’s first transition or with years below 1000. [vCard photos](https://github.com/kewisch/ical.js/pull/1080) · [Calendar streams](https://github.com/kewisch/ical.js/pull/1081) · [Time zone offsets](https://github.com/kewisch/ical.js/pull/1082) · [Early years](https://github.com/kewisch/ical.js/pull/1083)
 - **python-caldav** · One patch keeps an alarm’s ID from being mistaken for its parent event’s ID. Another reports when a server rejects an individual property update. [Event IDs](https://github.com/python-caldav/caldav/pull/858) · [Property updates](https://github.com/python-caldav/caldav/pull/859)
-- **icalevents** · My patches address calendar imports with repeated categories, searches that miss ongoing recurring events, all-day events appearing a day late, and cancellations that hide other meetings on the same day. [Categories](https://github.com/eigenmannmartin/icalevents/pull/182) · [Recurring events](https://github.com/eigenmannmartin/icalevents/pull/183) · [All-day events](https://github.com/eigenmannmartin/icalevents/pull/184) · [Cancellations](https://github.com/eigenmannmartin/icalevents/pull/185)
+- **icalevents · Merged** · I prevented a deadlock when multiple asynchronous calendar requests share a key, fixed imports with repeated categories, and included ongoing recurring events in narrow searches. [Async requests #189](https://github.com/eigenmannmartin/icalevents/pull/189) · [Categories #182](https://github.com/eigenmannmartin/icalevents/pull/182) · [Recurring events #183](https://github.com/eigenmannmartin/icalevents/pull/183)
+- **icalevents · Under review** · Fixes for exclusive all-day end dates, exact recurrence exclusions, and occurrences moved outside the query window. [#184](https://github.com/eigenmannmartin/icalevents/pull/184) · [#185](https://github.com/eigenmannmartin/icalevents/pull/185) · [#190](https://github.com/eigenmannmartin/icalevents/pull/190)
 
 ## Selected projects
 

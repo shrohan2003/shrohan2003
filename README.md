@@ -1,6 +1,8 @@
 # Shanjidul Hasan Rohan
 
-I work remotely as a **Software Engineer (Independent Contractor) at Staksa**, a role I started in October 2026. I study Computer Science and Engineering at BRAC University. Python is my main language, and I use it for browser automation, data processing, and testing. I also built a CI/CD pipeline using Terraform.
+I am a **full-stack Software Engineer (Independent Contractor) at Staksa Limited**, working remotely from Dhaka, Bangladesh since October 2026. I build frontend interfaces with React and Vue, backend APIs with Node.js and Express, and browser automation with Python. I also built a CI/CD pipeline using Terraform.
+
+**Education:** I studied Computer Science and Engineering at BRAC University.
 
 ## Open source
 

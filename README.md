@@ -25,6 +25,8 @@ Both python-caldav fixes and three icalevents fixes have merged. Additional cale
 
 ## Selected projects
 
+- **MediaStarboard · CI/CD & cloud infrastructure** — I contributed to MediaStarboard’s CI/CD and cloud infrastructure using GitHub Actions, Terraform, and AWS, including automated checks and beta deployments for the frontend and backend. My work also covered deployment safeguards and operational documentation.
+
 - **Calendar Recurrence Lab** lets you cancel meetings and compare the expected schedule with results from two pinned parser revisions across all 64 cancellation patterns. [Live demo](https://shrohan2003.github.io/calendar-recurrence-lab/) · [Source](https://github.com/shrohan2003/calendar-recurrence-lab)
 - **Calendar UID Map** compares local calendar exports, distinguishes reminders from their parent events, and flags repeated master records. [Source and example](https://github.com/shrohan2003/calendar-uid-map)
 
@@ -37,4 +39,4 @@ Both python-caldav fixes and three icalevents fixes have merged. Additional cale
 - **Web development** · JavaScript, TypeScript, Vue, React, and REST APIs with Node.js and Express.
 - **Databases and tools** · SQL, PostgreSQL, Cloudflare D1, Cloudflare Workers, and Git.
 
-[LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) · [Email](mailto:shanjidul.hasan.rohan@g.bracu.ac.bd)
+[Portfolio](https://shanjidul-rohan.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/shanjidul-hasan-rohan-b96189335/) · [Email](mailto:shanjidul.hasan.rohan@g.bracu.ac.bd)

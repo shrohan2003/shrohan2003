@@ -2,6 +2,8 @@
 
 I am a **full-stack Software Engineer (Independent Contractor) at Staksa Limited and MediaStarboard**, working remotely from Dhaka, Bangladesh since October 2026. I build frontend interfaces with React and Vue, backend APIs with Node.js and Express, and browser automation with Python. I also built a CI/CD pipeline using Terraform.
 
+I integrate ChatGPT, Codex, Claude, and Gemini into an efficient development workflow, using task-specific prompts and the right tool for each stage to streamline research, implementation, debugging, and testing.
+
 **Education:** I studied Computer Science and Engineering at BRAC University.
 
 ## Open source
